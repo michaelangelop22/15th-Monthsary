@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 15th Monthsary😘</title>
+  <link rel="stylesheet" href="index1.css">
+  <link rel="shortcut icon" href="images/111.png" type="image/x-icon">  
+</head>
+<body>
+  <video id="video-background" autoplay muted loop>
+        <source src="video/clip.MOV" type="video/mp4">
+    </video>
+  <div class="container">
+    <form id="passwordForm">
+      <label for="password">Happy Monthsary!!! 
+                            <br>Happy 15th monthsary loveeey kooo
+                            <br> I loveee youuu so muchhhh
+                            <br>😘😘😘😘😘😘😘😘
+                            <br>
+                            <br>
+                          </label>
+      <input type="text" id="password" name="password" required>
+      <button type="button" onclick="checkPassword()">✓</button>
+    </form>
+  </div>
+  <script>
+    function checkPassword() {
+      var enteredPassword = document.getElementById("password").value;
+      var correctPassword = "i love you";
+
+      if (enteredPassword === correctPassword) {
+        window.location.href = "home.html";
+      } else {
+        alert("Mali, bonak HAHAHAHAH");
+      }
+    }
+  </script>
+
+</body>
+</html>
